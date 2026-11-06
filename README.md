@@ -44,29 +44,10 @@ The system analyses smartphone features such as brand, battery capacity, screen 
 ## Project Structure
 - `mobile_price_prediction.ipynb` – Model development and analysis
 - `Mobilephone_data_final.csv` – Smartphone dataset
-- `app.py` – Gradio prediction application
 - `saved_model/` – Trained model and preprocessing files
 - `requirements.txt` – Python dependencies
 
-## Installation
 
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-python app.py
-```
 
 ## Output
 The application estimates smartphone prices based on the selected mobile specifications.
